@@ -4,35 +4,10 @@
   "description": "WebCrypto GOST for Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node ./test/test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/romansopov/node-gost.git"
-  },
-  "author": "Rudolf Nickolaev",
-  "contributors": [
-    "Roman Sopov"
-  ],
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/romansopov/node-gost/issues"
-  },
-  "homepage": "https://github.com/romansopov/node-gost#readme",
-  "keywords": [
-    "WebCrypto",
-    "Public Key Infrastructure",
-    "PKI",
-    "Russian Cryptographic Standards",
-    "GOST",
-    "SignalCom",
-    "CryptoPRO",
-    "private key",
-    "ASN1",
-    "cipher",
-    "digest",
-    "security"
-  ],
+  "author": "Roman Sopov",
+  "license": "",
   "dependencies": {
     "lodash": "^4.17.10"
   }
